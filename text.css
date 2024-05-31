@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    /* right left center ect.*/
+    font-weight: normal;
+    /* 400 = normal 700 = bold*/
+    text-decoration: #c72e2e underline wavy;
+    /* overline underline line-trought */
+    letter-spacing: 15px;
+    /* Harf aralıkları belirler. */
+}
+
+p {
+    /* text-align: center; */
+    line-height: 2;
+}
+
+a{
+    text-decoration: #c72e2e solid underline overline;
+}
