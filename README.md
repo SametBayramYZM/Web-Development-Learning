@@ -19,3 +19,7 @@
  Day 5
 
     Done!
+
+ Day 6
+
+    Done!
