@@ -29,6 +29,8 @@ span {
 
 .post a {
     color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 footer a {
@@ -58,4 +60,41 @@ input[type='password'] {
 
 a[href*='google'] {
     color: magenta;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(2n) {
+    /* Spesifik konum belirleme. */
+    background-color: #dfe8dc;
+}
+
+h2::first-letter {
+    /* 2 tane çift nokta olmasını çoğu browser önemsemez. Tek çift nokta da olur. */
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    /* Eğer p'yi silersek tüm sayfada geçerli olur. */
+    background-color: #fcbf49;
+}
+
+h1,
+h2 {
+    color: #fcbf49;
 }
