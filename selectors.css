@@ -39,11 +39,23 @@ footer a {
     background-color: #fff;
 } */
 
-h2+button {
+h2 + button {
     font-size: 20px;
     /* background-color: magenta; */
 }
 
-footer>a {
-    
+footer > a {
+    color: #457b9d;
+}
+
+input[type='password'] {
+    color: greenyellow;
+}
+
+/* section[class="post"] {section.post
+    background-color: purple;
+} */
+
+a[href*='google'] {
+    color: magenta;
 }
