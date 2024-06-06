@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Race Registration Form</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Race Registration Form</title>
-</head>
-
-<body>
-    <h1>Race Registration!</h1>
-    <form action="/register">
-        <div>
-            <label for="firstName">First Name</label>
-            <input type="text" name="firstName" id="firstName" required>
-            <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName" required>
-        </div>
-        <br>
-        <label for="radio">Select a Race:</label>
-        <div>
-            <p>
-                <input type="radio" name="race" id="fun" value="fun">
-                <label for="fun">Fun Run 5k</label>
-            </p>
-            <p>
-                <input type="radio" name="race" id="half" value="half">
-                <label for="half">Half Marathon</label>
-            </p>
-            <p>
-                <input type="radio" name="race" id="full" value="full">
-                <label for="full">Full Marathon</label>
-            </p>
-        </div>
-        <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" required>
-        </div>
-        <div>
-            <label for="select">Select Age Group</label>
-            <select name="select" id="select">
-                <option value="underage">under 18</option>
-                <option value="middleage">18-30</option>
-                <option value="bigage">30-50</option>
-                <option value="oldage">50+</option>
-            </select>
-        </div>
-        <button>Register</button>
-    </form>
-</body>
-<!-- file:///C:/register?firstName=Samet&lastName=Bayram&race=half&email=sametbayram%40gmail.com&password=718293392817Samet&select=middleage -->
+    <body>
+        <h1>Race Registration!</h1>
+        <form action="/register">
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" required />
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" required />
+            </div>
+            <br />
+            <label for="radio">Select a Race:</label>
+            <div>
+                <p>
+                    <input type="radio" name="race" id="fun" value="fun" />
+                    <label for="fun">Fun Run 5k</label>
+                </p>
+                <p>
+                    <input type="radio" name="race" id="half" value="half" />
+                    <label for="half">Half Marathon</label>
+                </p>
+                <p>
+                    <input type="radio" name="race" id="full" value="full" />
+                    <label for="full">Full Marathon</label>
+                </p>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required />
+            </div>
+            <div>
+                <label for="select">Select Age Group</label>
+                <select name="select" id="select">
+                    <option value="underage">under 18</option>
+                    <option value="middleage">18-30</option>
+                    <option value="bigage">30-50</option>
+                    <option value="oldage">50+</option>
+                </select>
+            </div>
+            <button>Register</button>
+        </form>
+    </body>
+    <!-- file:///C:/register?firstName=Samet&lastName=Bayram&race=half&email=sametbayram%40gmail.com&password=718293392817Samet&select=middleage -->
 </html>
