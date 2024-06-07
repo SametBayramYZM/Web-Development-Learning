@@ -1,5 +1,9 @@
 # Web Development Learning
 
+  Day 7
+
+    Done!
+
   Day 6
 
     Done!
