@@ -2,8 +2,8 @@
 
   Day 7
 
-    Done!
-
+    Done!  
+  
   Day 6
 
     Done!
