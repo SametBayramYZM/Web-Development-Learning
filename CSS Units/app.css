@@ -1,10 +1,14 @@
-section {
+html {
+    font-size: 30px;
+}
+
+#percentages {
     background-color: #6d6875;
     width: 800px;
     height: 800px;
 }
 
-div {
+#percentages div {
     background-color: #e5989b;
     width: 70%;
     height: 20%;
@@ -16,20 +20,20 @@ h1 {
     line-height: 200%;
 }
 
-h2 {
+#ems h2 {
     font-size: 5em; /* EM Parent boyut değerinin uyarlamasını verir. */
     margin-left: 1em; /* Parent article = 20px = 1em */
 }
 
-h3 {
+#ems h3 {
     font-size: 1.5em;
 }
 
-p {
+#ems p {
     font-size: 1em;
 }
 
-article {
+#ems {
     font-size: 20x;
 }
 
@@ -39,4 +43,26 @@ button {
     border-radius: 0.5em;
     background-color: #2a9d8f;
     color: white;
+}
+
+ul {
+    font-size: 1.5em;
+    /* Parentstan childa gittikçe boyut 1.5 ile çarpılıyor. */
+}
+
+#rems h2 {
+    font-size: 3rem;
+    /* rem root boyutla orantılanır, parenttan childa büyümez. */
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size: 1.5rem;
+}
+
+#rems button{
+    font-size: 1.5rem;
 }
